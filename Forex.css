@@ -43,8 +43,8 @@
 }
 
 .u-section-1 .u-image-1 {
-  background-image: url("images/-min1.jpg");
-  background-position: 50% 50%;
+  background-image: url("images/Bucket-List-Traders-Forex-Trading-1024x768.jpeg");
+  background-position: 100% 50%;
   min-height: 731px;
 }
 
@@ -367,15 +367,15 @@
 .u-section-3 .u-image-1 {
   width: 542px;
   height: 542px;
-  background-image: url("images/gfg-min1.jpg");
+  background-image: url("images/1e03ea21067dd372448a9bb9b95473755734d0e8aea69d64235ad09c6f25f9c8f6d9eaa1a5a7b24541c270884b9f49e7dbad638f85f68919128fd4_1280.jpg");
   background-position: 50% 50%;
-  margin: 0 auto;
+  margin: 58px auto 0 -22px;
 }
 
 .u-section-3 .u-shape-2 {
   width: 218px;
   height: 68px;
-  margin: -96px 0 28px auto;
+  margin: -84px 0 0 auto;
 }
 
 @media (max-width: 1199px) {
@@ -418,11 +418,11 @@
   .u-section-3 .u-image-1 {
     width: 459px;
     height: 459px;
+    margin-left: 0;
   }
 
   .u-section-3 .u-shape-2 {
     margin-top: -68px;
-    margin-bottom: 0;
   }
 }
 
@@ -517,7 +517,7 @@
     width: 340px;
     height: 340px;
     margin-right: 0;
-    margin-left: auto;
+    margin-left: 0;
   }
 
   .u-section-3 .u-shape-2 {
@@ -636,15 +636,9 @@
   min-height: 724px;
 }
 
-.u-section-5 .u-shape-1 {
-  width: 316px;
-  height: 316px;
-  margin: 159px auto 0 358px;
-}
-
 .u-section-5 .u-layout-wrap-1 {
   width: 921px;
-  margin: -415px auto 60px 110px;
+  margin: 60px auto 0 110px;
 }
 
 .u-section-5 .u-layout-cell-1 {
@@ -674,7 +668,7 @@
 
 .u-section-5 .u-image-1 {
   min-height: 604px;
-  background-image: url("images/fsae-min1.jpg");
+  background-image: url("images/26578618-0.jpeg");
   background-position: 50% 50%;
 }
 
@@ -682,49 +676,24 @@
   padding: 30px;
 }
 
-.u-section-5 .u-group-1 {
-  min-height: 92px;
-  width: 339px;
-  margin: 403px auto 0 262px;
-}
-
-.u-section-5 .u-container-layout-3 {
-  padding: 30px;
-}
-
-.u-section-5 .u-text-3 {
-  margin-top: 0;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  margin-bottom: 0;
-}
-
-.u-section-5 .u-btn-2 {
-  border-style: none none solid;
-  padding: 0;
+.u-section-5 .u-shape-1 {
+  width: 316px;
+  height: 316px;
+  margin: -505px auto 0 358px;
 }
 
 @media (max-width: 1199px) {
-  .u-section-5 .u-shape-1 {
-    margin-left: 273px;
-  }
-
   .u-section-5 .u-layout-wrap-1 {
     width: 872px;
     margin-left: 19px;
   }
 
-  .u-section-5 .u-group-1 {
-    margin-top: 405px;
-    margin-left: 174px;
+  .u-section-5 .u-shape-1 {
+    margin-left: 273px;
   }
 }
 
 @media (max-width: 991px) {
-  .u-section-5 .u-shape-1 {
-    margin-left: 191px;
-  }
-
   .u-section-5 .u-layout-wrap-1 {
     width: 698px;
     margin-left: 0;
@@ -738,9 +707,9 @@
     min-height: 578px;
   }
 
-  .u-section-5 .u-group-1 {
-    margin-top: 404px;
-    margin-left: 49px;
+  .u-section-5 .u-shape-1 {
+    margin-top: -479px;
+    margin-left: 191px;
   }
 }
 
@@ -749,16 +718,9 @@
     min-height: 951px;
   }
 
-  .u-section-5 .u-shape-1 {
-    margin-top: 295px;
-    margin-right: 73px;
-    margin-left: auto;
-  }
-
   .u-section-5 .u-layout-wrap-1 {
     width: 493px;
-    margin-top: -581px;
-    margin-bottom: 30px;
+    margin-top: 30px;
   }
 
   .u-section-5 .u-container-layout-1 {
@@ -775,15 +737,10 @@
     padding-right: 10px;
   }
 
-  .u-section-5 .u-group-1 {
-    width: 336px;
-    margin-top: 364px;
-    margin-left: 194px;
-  }
-
-  .u-section-5 .u-container-layout-3 {
-    padding-left: 10px;
-    padding-right: 10px;
+  .u-section-5 .u-shape-1 {
+    margin-top: -612px;
+    margin-right: 73px;
+    margin-left: auto;
   }
 }
 
@@ -792,15 +749,8 @@
     min-height: 1052px;
   }
 
-  .u-section-5 .u-shape-1 {
-    margin-top: 427px;
-    margin-right: auto;
-    margin-left: 0;
-  }
-
   .u-section-5 .u-layout-wrap-1 {
     width: 319px;
-    margin-top: -713px;
   }
 
   .u-section-5 .u-image-1 {
@@ -811,16 +761,10 @@
     padding-bottom: 5px;
   }
 
-  .u-section-5 .u-group-1 {
-    min-height: 64px;
-    width: 254px;
-    margin-top: 348px;
-    margin-left: 76px;
-  }
-
-  .u-section-5 .u-container-layout-3 {
-    padding-top: 19px;
-    padding-bottom: 19px;
+  .u-section-5 .u-shape-1 {
+    margin-top: -502px;
+    margin-right: auto;
+    margin-left: 0;
   }
 }.u-section-6 .u-sheet-1 {
   min-height: 1140px;
@@ -850,7 +794,7 @@
 
 .u-section-6 .u-image-1 {
   min-height: 417px;
-  background-image: url("images/t1.jpg");
+  background-image: url("images/2db78be881c16bc15494595b83699e2d5a441e627f6c515e9b45528f20d0cc7ede83c137efb8076c3ca568eff0866a7f42c3dc64bb096a674c00f3_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -923,7 +867,7 @@
 
 .u-section-6 .u-image-4 {
   min-height: 383px;
-  background-image: url("images/w3-min1.jpg");
+  background-image: url("images/5aeb49770f936a5743256d2ed605f6a98eeafaf3063bbe7d1d70f13214faddd488231a876381e7e6fc4112adcc14c359800e3232ae98ececca9f64_1280.jpg");
   background-position: 50% 50%;
 }
 
