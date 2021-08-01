@@ -1,2 +1,0 @@
-[09-Oct-2019 01:58:13 America/Chicago] PHP Warning:  unlink(./upload-profile/6054f63790f235fe8b84c0c18550e389.jpg): No such file or directory in /home2/mylegacyvip/public_html/education/profile/upload.php on line 55
-[09-Oct-2019 01:58:13 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home2/mylegacyvip/public_html/education/profile/upload.php:55) in /home2/mylegacyvip/public_html/education/profile/upload.php on line 91
