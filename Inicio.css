@@ -1,5 +1,5 @@
 .u-section-4-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("np://user.desktop.nicepage.com/Site_309208968/images/f0cca607711242adc7cb5cd879658f118c769f3dd7642be29089ddcc292a056ab2dca36c07630b9da39b6ebd1c1667b5efca06aeb59a247b7bac35_1280.jpg?rand=d8fd");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/f0cca607711242adc7cb5cd879658f118c769f3dd7642be29089ddcc292a056ab2dca36c07630b9da39b6ebd1c1667b5efca06aeb59a247b7bac35_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -196,9 +196,6 @@
   .u-section-1 .u-list-1 {
     width: 940px;
     margin-top: 20px;
-    margin-left: initial;
-    margin-right: initial;
-    margin-bottom: initial;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -219,9 +216,6 @@
 
   .u-section-1 .u-list-1 {
     width: 720px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0;
   }
 
   .u-section-1 .u-repeater-1 {
@@ -371,7 +365,7 @@
     margin-top: -1593px;
   }
 }.u-section-2 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("np://user.desktop.nicepage.com/Site_309208968/images/8dd357b45bb50fb118bf9c7d695cc088f389490b85eb127c1daf3fd9d5c52f869ab06ebf575d07830cb90df1002f8cc77c71033ea4a502ee18668f_1280.jpg?rand=1f52");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url("images/8dd357b45bb50fb118bf9c7d695cc088f389490b85eb127c1daf3fd9d5c52f869ab06ebf575d07830cb90df1002f8cc77c71033ea4a502ee18668f_1280.jpg");
   background-position: 50% 50%;
 }
 
@@ -451,7 +445,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 400px;
-  background-image: url("np://user.desktop.nicepage.com/Site_309208968/images/914c7d9687cb46ad1519244e921e1f232629ce153633153dc0b052227a5eaa9d1e6ec2c4611f2dd8e5d3f0919c3b62a27ed0b33692dd9666a5dd56_1280.jpg?rand=e825");
+  background-image: url("images/914c7d9687cb46ad1519244e921e1f232629ce153633153dc0b052227a5eaa9d1e6ec2c4611f2dd8e5d3f0919c3b62a27ed0b33692dd9666a5dd56_1280.jpg");
   background-position: 50% 50%;
 }
 

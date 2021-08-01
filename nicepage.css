@@ -34136,13 +34136,15 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
-    margin-right: 335px;
+    width: 205px;
+    margin-top: -32px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media (max-width: 575px) {
   .u-header .u-text-1 {
     width: auto;
-    margin-top: -32px;
     margin-right: 51px;
     margin-left: 84px;
   }
