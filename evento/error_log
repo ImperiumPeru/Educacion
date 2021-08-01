@@ -1,0 +1,17 @@
+[08-Oct-2019 18:04:01 America/Chicago] PHP Warning:  require(class.phpmailer.php): failed to open stream: No such file or directory in /home2/mylegacyvip/public_html/evento/enviar.php on line 62
+[08-Oct-2019 18:04:01 America/Chicago] PHP Warning:  require(class.phpmailer.php): failed to open stream: No such file or directory in /home2/mylegacyvip/public_html/evento/enviar.php on line 62
+[08-Oct-2019 18:04:01 America/Chicago] PHP Fatal error:  require(): Failed opening required 'class.phpmailer.php' (include_path='.:/opt/php71/lib/php') in /home2/mylegacyvip/public_html/evento/enviar.php on line 62
+[08-Oct-2019 18:26:44 America/Chicago] PHP Parse error:  syntax error, unexpected '=', expecting ',' or ';' in /home2/mylegacyvip/public_html/evento/enviar.php on line 108
+[08-Oct-2019 18:30:58 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/mylegacyvip/public_html/evento/enviar.php on line 107
+[08-Oct-2019 18:32:51 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/mylegacyvip/public_html/evento/enviar.php on line 107
+[08-Oct-2019 18:34:45 America/Chicago] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home2/mylegacyvip/public_html/evento/enviar.php on line 106
+[08-Oct-2019 18:39:10 America/Chicago] PHP Parse error:  syntax error, unexpected end of file in /home2/mylegacyvip/public_html/evento/enviar.php on line 120
+[08-Oct-2019 18:43:16 America/Chicago] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home2/mylegacyvip/public_html/evento/enviar.php on line 103
+[09-Oct-2019 11:56:31 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:45:32 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:47:08 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:48:03 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:48:57 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:49:46 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[09-Oct-2019 18:50:52 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918
+[10-Oct-2019 12:25:25 America/Chicago] PHP Warning:  preg_replace(): The /e modifier is no longer supported, use preg_replace_callback instead in /home2/mylegacyvip/public_html/evento/class.phpmailer.php on line 1918

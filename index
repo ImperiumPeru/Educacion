@@ -1,0 +1,547 @@
+<?php 
+include_once('DAO/ListTestimony.php');
+
+    $Testimonios= new TestomonyList;
+    $LisTestomonios=$Testimonios->geTestomonyList();
+    $count=count($LisTestomonios);
+
+?>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Legacy Vip</title>
+    <meta property="og:title" content="Legacy Vip">
+    <meta property="og:site_name" content="Legacy Vip">
+    <meta property="og:url" content="https://www.facebook.com/lecacyvip/">
+    <meta property="og:description" content="El negocio consiste en atraer inversionistas para generales hasta el triple de su inversión. Ya que por cada afiliado LEGACY VIP se gana solo el 6% de la inversión que realice el inversionista.">
+    <meta property="og:type" content="business.business">
+    <link rel="shortcut icon" type="image/png" href="img/LOGO-LEGACY.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a8e2730d73.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/hover.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/YouTubePopUp.css">
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+       <script>
+        jQuery(function(){
+    jQuery("a.bla-1").YouTubePopUp();
+    jQuery("a.bla-2").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
+});
+    </script>
+    
+    
+    <style>
+    
+        /*Flecha para hacer la pagina hacia arriba*/
+        .ir-arriba{
+      padding:20px;
+      background:rgb(85, 82, 82);
+      color:white;
+      font-size: 20px;
+      cursor:pointer;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 100;
+        }
+    </style>
+    <style>
+
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+          
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          background: transparent; 
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+        display:none;
+        margin-right:2%;
+        background: #DCDCD8; 
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+        display:block;
+        border-radius:15px;
+        background: #0880B4;
+        }
+    </style>
+   <script>
+    
+    function stopmedia(){
+        var movie=document.getElementsByName("rmp4");
+        movie[0].pause();
+        movie[1].pause();
+    }
+   
+       
+   </script>
+</head>
+<body class="bg-contenedor">
+    <main>
+    <!--  contacto - contacto@mylegacyvip.com	 -->
+    
+    <span><i class="fas fa-chevron-up ir-arriba"></i></span>
+    <div class="container">
+      
+    <!-- Cabecera -->
+    <div class="row cabecera">
+            <div class="col-12 text-center position-relative" >
+                <a href="./index.php">
+                  <img src="./img/LOGO-LEGACY.png"  alt="logo" class="cabecera__logo" style="width:200px;height:150px">
+                </a>
+                <nav class="navbar cabecera__idiomas">
+                    <a class="btn btn-primary mr-2"  href="./login/index.php">Ingresar</a>
+                    <div class="btn-group">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            <img src="img/globe-americas-solid.svg" alt="idioma" style="width: 24px;">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <button class="dropdown-item" type="button">Español</button>
+                            <button class="dropdown-item" type="button">Ingles</button>
+                            <button class="dropdown-item" type="button">Frances</button>
+                            <button class="dropdown-item" type="button">Portugues</button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-12 p-0">
+                <nav class="navbar navbar-expand-lg navbar-light cabecera__color">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <ul class="navbar-nav">
+                            <li class="nav-item dropdown active">
+                                <a class="nav-link dropdown-toggle space-menu space-sub" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Legacy VIP
+                                </a>
+                                <div class="dropdown-menu space-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item space-sub" href="./quienes_somos.html">¿Quiénes somos?</a>
+                                    <a class="dropdown-item space-sub" href="./por_que_elegirnos.html">¿Por qué elegirnos?</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle space-menu space-sub" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Gana con bitcoin
+                                </a>
+                                <div class="dropdown-menu space-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <a class="dropdown-item space-sub" href="./presentacion.html">Presentación de negocio</a>
+                                    <a class="dropdown-item space-sub" href="./sobre_bitcoin.html">Sobre bitcoin</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link space-menu space-sub" href="#">E-commerce</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link space-menu space-sub" href="./soporte.html">Soporte</a>
+                            </li>
+                            <nav class="navbar cabecera__idiomas__menu d-sm-none">
+                                <a class="btn btn-primary mr-2" href="./login/index.php">Ingresar</a>
+                                <div class="btn-group">
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                                        <img src="img/globe-americas-solid.svg" alt="idioma" style="width: 24px;">
+                                    </button>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <button class="dropdown-item" type="button">Español</button>
+                                        <button class="dropdown-item" type="button">Ingles</button>
+                                        <button class="dropdown-item" type="button">Frances</button>
+                                        <button class="dropdown-item" type="button">Portugues</button>
+                                    </div>
+                                </div>
+                            </nav>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+    <!-- Cinta de criptomonedas -->
+    <div class="row cinta-criptomoneda ">
+        <!-- TradingView Widget BEGIN -->
+        <div class="tradingview-widget-container">
+            <div class="tradingview-widget-container__widget"></div>
+            <!-- <div class="tradingview-widget-copyright"><a href="https://es.tradingview.com" rel="noopener" target="_blank"></a></div> -->
+            <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+            {
+            "symbols": [
+            {
+                "title": "BTC/USD",
+                "proName": "BITSTAMP:BTCUSD"
+            },
+            {
+                "title": "ETH/USD",
+                "proName": "BITSTAMP:ETHUSD"
+            },
+            {
+                "description": "XRP/USD",
+                "proName": "BITFINEX:XRPUSD"
+            },
+            {
+                "description": "LTC/USD",
+                "proName": "KRAKEN:LTCUSD"
+            },
+            {
+                "description": "XMR/USD",
+                "proName": "KRAKEN:XMRUSD"
+            },
+            {
+                "description": "DOGE/USD",
+                "proName": "BITTREX:DOGEUSD"
+            }
+            ],
+            "colorTheme": "dark",
+            "isTransparent": true,
+            "displayMode": "adaptive",
+            "locale": "es"
+            }
+            </script>
+        </div>
+        <!-- TradingView Widget END -->
+    </div>
+
+
+    <!-- Slider -->
+    <div id="carousel" class="carousel slide p-0 slider" data-ride="carousel" style="margin-left: -15px; margin-right: -15px;" >
+        <ol class="carousel-indicators">
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="6"></li>
+            <li data-target="#carousel" data-slide-to="7"></li>
+            <li data-target="#carousel" data-slide-to="8"></li>
+        </ol>
+        <div class="carousel-inner" align="center">
+            <div class="carousel-item active">
+                <video src="movie/intro.mp4" controls style="width: 100%; max-height: 500px;" name="rmp4" type="video/mp4"></video>
+            </div>
+            
+            <div class="carousel-item">
+                <video src="movie/intro2.mp4" controls style="width: 100%; max-height: 500px;" name="rmp4" type="video/mp4"></video>
+            </div>
+            
+            
+            <div class="carousel-item">
+                <img src="img/imagen2.jpeg" class="img-fluid slider__imagen" alt="imagen1">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen3.jpeg" class="img-fluid slider__imagen" alt="imagen2">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen4.jpeg" class="img-fluid slider__imagen" alt="imagen3">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen5.jpeg" class="img-fluid slider__imagen" alt="imagen4">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen6.jpeg" class="img-fluid slider__imagen" alt="imagen5">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen7.jpeg" class="img-fluid slider__imagen" alt="imagen6">
+            </div>
+            <div class="carousel-item">
+                <img src="img/imagen8.jpeg" class="img-fluid slider__imagen" alt="imagen7">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" onclick="stopmedia()" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previo</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" onclick="stopmedia()" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only" >Siguiente</span>
+        </a>
+    </div>
+
+    <!-- Testimonios -->  
+    <div class="row py-5 testimonios justify-content-center" align="center">
+        <div data-wow-offset="80" align="center" style="position:relative;margin-bottom:0%;text-align:center" >
+            <div>
+                <h2 class="testimonios__titulo animated wow fadeInDown" >Testimonios</h2>
+            </div>
+        </div>
+      <!-- List Testimony -->
+        <div style="border : none;
+            width : 100%;
+            height : 290px;
+            overflow-x: hidden;position:realative;margin-bottom:0%; " data-wow-offset="80">
+            
+            <?php
+                
+                
+                for($i=0;$i<$count;$i++){
+                    $num=$i+1;
+                    $val=$num%3;
+                    
+                    switch($val){
+                        
+                        case 1: //for open row
+                            echo('<!-- Row Testimony -->
+                        <div class="row py-4 testimonios">
+                            <div class="col-lg-4 testimonios__item  wow fadeInLeft animated">
+                                <div class="card mb-5 mb-lg-0" style="width:95%">
+                                    <div class="card-body" align="center" >
+                                        <figure class="figure">
+                                          <video src="' .$LisTestomonios[$i][3]. '" style="width: 100%; height: 50%;" muted></video>
+                                                <figcaption class="figcaption">
+                                                    <a href="' .$LisTestomonios[$i][4]. '" class="btn btn-lg btn-danger bla-2 text-uppercase testimonios__item__boton" style="text-decoration:none; color:white;">Ver video</a>
+                                                    <p>'. $LisTestomonios[$i][1] .'</p>
+                                                    <p>'. $LisTestomonios[$i][2] .'</p>
+                                                </figcaption>
+                        			    </figure>
+                                    </div>
+                                </div>
+                            </div>')
+                            ;break;
+                            
+                        case 2: //for middle row
+                            echo('<div class="col-lg-4 testimonios__item  wow fadeInLeft animated">
+                                <div class="card mb-5 mb-lg-0" style="width:95%">
+                                  <div class="card-body" align="center" >
+                                        <figure class="figure">
+                                          <video src="' .$LisTestomonios[$i][3]. '" style="width: 100%; height: 50%;" muted></video>
+                                                <figcaption class="figcaption">
+                                                    <a href="' .$LisTestomonios[$i][4]. '" class="btn btn-lg btn-danger bla-2 text-uppercase testimonios__item__boton" style="text-decoration:none; color:white;">Ver video</a>
+                                                    <p>'. $LisTestomonios[$i][1] .'</p>
+                                                    <p>'. $LisTestomonios[$i][2] .'</p>
+                                                </figcaption>
+                        			    </figure>
+                                  </div>
+                                </div>
+                              </div>');
+                              if($num==$count){
+                                  echo ('</div>
+                            <!-- Row finish break-->');
+                              }
+                            ;break;
+                            
+                        case 0: //for close row
+                            echo('<div class="col-lg-4 testimonios__item  wow fadeInLeft animated">
+                                    <div class="card mb-5 mb-lg-0" style="width:95%">
+                                      <div class="card-body" align="center" >
+                                            <figure class="figure">
+                                              <video src="' .$LisTestomonios[$i][3]. '" style="width: 100%; height: 50%;" muted></video>
+                                                    <figcaption class="figcaption">
+                                                        <a href="' .$LisTestomonios[$i][4]. '" class="btn btn-lg btn-danger bla-2 text-uppercase testimonios__item__boton" style="text-decoration:none; color:white;">Ver video</a>
+                                                        <p>'. $LisTestomonios[$i][1] .'</p>
+                                                        <p>'. $LisTestomonios[$i][2] .'</p>
+                                                    </figcaption>
+                            			    </figure>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                            <!-- Row Testimony finish-->')
+                            ;break;
+                    }
+                    
+                }
+            
+            ?>
+        </div>
+    </div>
+    
+    <!-- Mision -->
+    <div class="row justify-content-center align-items-md-center mision py-5" data-wow-offset="450">
+        <div class="col-md-4 animated mision__contenededor__imagen wow fadeInLeft" style="display: flex; justify-content: center;">
+            <img src="img/mision.png" class="mision__imagen img-fluid" alt="mision">
+        </div>
+        <div class="col-md-4 animated wow zoomIn">
+            <i class="fas fa-chart-line d-block text-center mision__icono"></i><!-- image chart-line-->
+            <h2 class="text-center mision__titulo">Misión</h2>
+            <p class="mision__contenido text-justify">Ayudar a nuestros socios a mejorar su calidad de vida apalancandonos de vehículos digitales seguros y sostenibles.</p>
+        </div>
+    </div>
+
+    <!-- Vision -->
+    <div class="row justify-content-center align-items-md-center vision py-5" data-wow-offset="850">
+        <div class="col-md-4 animated wow zoomIn vision__principal order-1 order-md-0">
+            <i class="far fa-handshake vision__icono"></i><!-- image handshake-->
+            <!-- <div> -->
+              <h2 class="text-center vision__titulo">Visión</h2>
+              <p class="vision__contenido text-justify">Dejar un legado para nuestros socios, nuestro Perú, transformando el mundo, una vida a la vez.</p>
+            <!-- </div> -->
+        </div>
+        <div class="col-md-4 animated vision__contenededor__imagen wow fadeInRight order-0 order-md-1" style="display: flex; justify-content: center;">
+            <img src="img/vision.png" class="vision__imagen img-fluid" alt="vision">
+        </div>
+    </div>
+
+    <!-- Contactenos -->
+    <div class="row contactenos justify-content-center py-5" data-wow-offset="1400">
+        <div class="col-md-12">
+            <h2 class="contactenos__titulo text-center animated wow fadeInDown">Contáctenos</h2>
+        </div>
+        <div class="col-sm-10 col-md-4">
+            <h3 class="text-center contactenos__subtitulo">Formulario de contacto</h3>
+            
+            
+            <!-- Form contact-->
+            <form action="Mail/receiveMail.php" class="contactenos__formulario" id="needs-validation" method="POST" target="_blank">
+                <div class="form-group">
+                    <label for="name">Nombre<span style="color: #CB2020">*</span></label>
+                    <input type="text" class="form-control" id="txtNumeric" name="name" required maxlength="20">
+                    <div class="invalid-feedback">Ingrese nombre</div>
+                </div>
+                <div class="form-group">
+                    <label for="correo">Correo<span style="color: #CB2020">*</span></label>
+                    <input type="email" class="form-control" id="correo" name="mail" required>
+                    <div class="invalid-feedback">Ingrese correo</div>
+                </div>
+                <div class="form-group">
+                    <label for="empresa">Empresa</label>
+                    <input type="text" class="form-control" id="txtNumeric" name="company">
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono<span style="color: #CB2020">*</span></label>
+                    <input type="text" class="form-control" id="telefono" name="phone" required onkeypress="return valida(event)" maxlength="9">
+                    <div class="invalid-feedback">Ingrese un número de teléfono</div>
+                </div>
+                <div class="form-group">
+                    <label for="descripcion">Descripción<span style="color: #CB2020">*</span></label>
+                    <textarea class="form-control" id="descripcion" rows="2" style="max-height: 80px; min-height: 80px;" name="message" required maxlength="100"></textarea>
+                    <div class="invalid-feedback">Ingrese descripción</div>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="condiciones" required>
+                    <label class="form-check-label" for="condiciones"><b>He leído y aceptado</b> la Política de privacidad</label>
+                    <div class="invalid-feedback"></div>
+                </div>
+                <button type="submit" name="contact" id="contact" class="btn btn-primary w-100">ENVIAR</button>
+            </form>
+            <!-- Form contact finish-->
+            
+        </div>
+        
+        <!-- Contactenos footer -->
+        <div class="col-sm-10 col-md-4 contactenos__ubicacion">
+            <h3 class="text-center contactenos__subtitulo">Ubicación</h3>
+            <h4 class="contactenos__subtitulo__1">Dirección</h4>
+            <p class="contactenos__subtitulo__2">direccion de la empresa</p>
+            
+            <h4 class="contactenos__subtitulo__1">Celular</h4>
+            <p class="contactenos__subtitulo__2">+51 987 097 690</p>
+            <p class="contactenos__subtitulo__2">+51 999 876 774</p>
+            
+            <h4 class="contactenos__subtitulo__1">Correo</h4>
+            <p class="contactenos__subtitulo__2"> contacto@mylegacyvip.com</p>
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1951.0880542865452!2d-77.0286277647244!3d-12.031393987981579!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf48cd47de0f%3A0x9880c09b40150cbf!2sCondominio%20Alameda%20Alcazar!5e0!3m2!1ses-419!2spe!4v1569019326091!5m2!1ses-419!2spe" 
+            width="400" height="250" frameborder="0" allowfullscreen="" style="max-width: 100%;border:0;"></iframe> 
+        </div>
+        <!-- Finish Contactenos footer -->
+        
+    </div>
+
+
+  </div>
+  
+  <div class="row footer">
+        <div class="col-md-12">
+            <div class="row justify-content-center footer__terminos">
+                <div class="col-sm-12 col-md-3 text-center col-lg-2 py-sm-2"><a href="#" class="footer__terminos__enlace">Aviso Legal</a></div>
+                <div class="col-sm-12 col-md-3 text-center col-lg-2 py-sm-2"><a href="#" class="footer__terminos__enlace">Mapa Web</a></div>
+                <div class="col-sm-12 col-md-3 text-center col-lg-2 py-sm-2"><a href="#" class="footer__terminos__enlace">Politica de privacidad</a></div>
+                <div class="col-sm-12 col-md-3 text-center col-lg-2 py-sm-2"><a href="#" class="footer__terminos__enlace">Soporte</a></div>
+            </div>
+            <div class="footer__redes-sociales d-flex justify-content-center">
+                <a href="https://www.facebook.com/lecacyvip/" target="_blank"><i class="fab fa-facebook-f footer__redes-sociales__item"></i></a>
+                <a href="https://www.youtube.com/channel/UCNEoz_8sbk1XlM3SXanYHNA/featured" target="_blank"><i class="fab fa-youtube footer__redes-sociales__item"></i></a>
+                <a href="http://" target="_blank"><i class="fab fa-instagram footer__redes-sociales__item"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=51987097690&text=Hola,%20me%20gustar%C3%ADa%20mas%20informacion%20sobre%20Bitcoin" target="_blank" class="d-flex align-items-center"><i class="fab fa-whatsapp footer__redes-sociales__item d-flex"></i><span>+51 987 097 690</span></a>
+            </div>
+        </div>
+    </div>
+  <!-- Scripts -->
+    <script>
+    document.querySelector("#txtNumeric").addEventListener("keyup", function(event){
+    if (event.keyCode == 32){
+        }
+    }, false);
+
+    </script>
+    <script>
+        $(function() {
+
+              $('#txtNumeric').keydown(function (e) {
+              
+                if (e.shiftKey || e.ctrlKey || e.altKey) {
+                
+                  e.preventDefault();
+                  
+                } else {
+                
+                  var key = e.keyCode;
+                  
+                  if (!((key == 8) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+                  
+                    e.preventDefault();
+                    
+                  }
+            
+                }
+                
+              });
+              
+            });
+    </script>
+    <script>
+					function valida(e){
+    				tecla = (document.all) ? e.keyCode : e.which;
+
+    //Tecla de retroceso para borrar, siempre la permite
+    				if (tecla==8){
+        			return true;
+    				}
+        
+    				// Patron de entrada, en este caso solo acepta numeros
+    				patron =/[0-9]/;
+    				tecla_final = String.fromCharCode(tecla);
+    				return patron.test(tecla_final);
+					}
+					</script>
+	<script>
+		
+        $('#carousel').on('slid.bs.carousel', function (e) {
+            let elemento = $('#carousel .item.active video').first();
+            if (elemento.prop("tagName") == "VIDEO") {
+              elemento.get(0).play();
+            }
+         });
+        
+         $('#carousel').bind('slide.bs.carousel', function (e) {  
+            let elemento = $('#carousel .item.active video').first();
+            if (elemento.prop("tagName") == "VIDEO") {
+              elemento.get(0).pause();
+            }
+         });			    
+	</script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/YouTubePopUp.jquery.js"></script>  
+    <script src="./js/up.js"></script>  
+    
+    <!-- Footer -->
+    
+    <!-- Footer -->
+    </main>
+        
+</body>
+</html>

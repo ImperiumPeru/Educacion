@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Registro</title>
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="../img/logoLegacy.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="../img/logoLegacy.png" sizes="16x16" />
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../include/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../include/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="../include/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="../css/util.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+<!--===============================================================================================-->
+</head>
+<body>
+	
+	<div class="limiter" style="position:relative;top=-60px;">
+		<div class="container-login100" style="background-image: url('../img/criptomonedas.jpg');">
+			<div class="wrap-login100 p-t-30 p-b-50">
+			    <span class="login100-form-title p-b-41">
+			        <a href="https://www.mylegacyvip.com/index.php">
+			        <img src="../img/LOGO-LEGACY.png" style="width:200px;height:200px" alt="LOGO">
+			        </a>
+			    </span>
+				<span class="login100-form-title p-b-41">
+					REGISTRO
+				</span>
+				<form class="login100-form validate-form p-b-33 p-t-5" method="POST" action="./validate.php">
+                
+					<div class="wrap-input100 validate-input" data-validate = "Ingrese un usuario">
+						<input class="input100" type="text" name="username" placeholder="Usuario" maxlength="15">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+                    
+                    <div class="wrap-input100 validate-input" data-validate = "Ingrese un Nombre" >
+						<input class="input100" type="text" name="name" placeholder="Nombres" onkeypress="return word(event)" maxlength="25">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Ingrese un Apellido">
+						<input class="input100" type="text" name="apepat" placeholder="Apellido Paterno" onkeypress="return word(event)" maxlength="25">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Ingrese un Nombre">
+						<input class="input100" type="text" name="apemat" placeholder="Apellido Materno" onkeypress="return word(event)" maxlength="25">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+
+                    <div class="wrap-input100 validate-input" data-validate = "Ingrese un DNI">
+						<input class="input100" type="text" name="dni" placeholder="DNI" id="dni" onkeypress="return valida(event)" maxlength="8">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Ingrese un número de teléfono">
+						<input class="input100" type="text" name="numberphone" placeholder="Tel&eacute;fono" id="phone" onkeypress="return valida(event)" maxlength="9">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate = "Ingrese un correo">
+						<input class="input100" type="email" name="email" placeholder="Email" id="email">
+						<span class="focus-input100" data-placeholder="&#xe82a;"></span>
+					</div>
+                    
+					<div class="wrap-input100 validate-input" data-validate="Ingrese una contrase&ntilde;a">
+						<input class="input100" type="password" name="pass1" id="pass1" placeholder="Ingrese Contrase&ntilde;a">
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+					
+					<div class="wrap-input100 validate-input" data-validate="Ingrese una contrase&ntilde;a">
+						<input class="input100" type="password" name="pass2" id="pass2" placeholder="Repita la contrase&ntilde;a">
+						<span class="focus-input100" data-placeholder="&#xe80f;"></span>
+					</div>
+
+					<div class="container-login100-form-btn m-t-32">
+						<button class="login100-form-btn" id="btn_register" name="btn_register">
+							REGISTRARSE
+						</button>
+						
+					</div>
+					<div class="container-login100-form-btn m-t-32">
+					<a href="./index.php">Usar una cuenta existente</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+<!--===============================================================================================-->	    
+    <script type="text/javascript">
+            function word(e) { // 1
+            tecla = (document.all) ? e.keyCode : e.which; // 2
+            if (tecla==8) return true; // 3
+            patron =/[A-Za-z\s]/; // 4
+            te = String.fromCharCode(tecla); // 5
+            return patron.test(te); // 6
+            }
+    </script>
+<!--===============================================================================================-->    
+    <script>
+		function valida(e){
+    	tecla = (document.all) ? e.keyCode : e.which;
+
+        //Tecla de retroceso para borrar, siempre la permite
+    	if (tecla==8){
+        return true;
+    		}
+        
+    	// Patron de entrada, en este caso solo acepta numeros
+    	patron =/[0-9]/;
+    	tecla_final = String.fromCharCode(tecla);
+    	return patron.test(tecla_final);
+		}
+	</script>
+<!--===============================================================================================-->
+	<script src="include/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="include/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="include/bootstrap/js/popper.js"></script>
+	<script src="include/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="include/countdowntime/countdowntime.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
