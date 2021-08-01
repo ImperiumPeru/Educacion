@@ -34120,24 +34120,23 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.125rem;
   text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
   font-weight: 400;
-  margin: -36px 863px 30px 72px;
+  margin: -32px 705px 26px 230px;
 }
 @media (max-width: 1199px) {
   .u-header .u-text-1 {
-    margin-top: -36px;
-    margin-right: 735px;
-    margin-left: 0;
+    margin-right: 605px;
+    margin-left: 130px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
-    margin-right: 515px;
+    margin-right: 495px;
+    margin-left: 20px;
   }
 }
 @media (max-width: 767px) {
   .u-header .u-text-1 {
     width: 205px;
-    margin-top: -32px;
     margin-left: auto;
     margin-right: auto;
   }
