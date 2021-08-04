@@ -44,7 +44,7 @@
 
 .u-section-1 .u-image-1 {
   background-image: url("images/Bucket-List-Traders-Forex-Trading-1024x768.jpeg");
-  background-position: 50% 50%;
+  background-position: 100% 50%;
   min-height: 731px;
 }
 
@@ -638,7 +638,7 @@
 
 .u-section-5 .u-layout-wrap-1 {
   width: 921px;
-  margin: 60px auto 60px 110px;
+  margin: 60px auto 0 110px;
 }
 
 .u-section-5 .u-layout-cell-1 {
@@ -676,10 +676,20 @@
   padding: 30px;
 }
 
+.u-section-5 .u-shape-1 {
+  width: 316px;
+  height: 316px;
+  margin: -505px auto 0 358px;
+}
+
 @media (max-width: 1199px) {
   .u-section-5 .u-layout-wrap-1 {
     width: 872px;
     margin-left: 19px;
+  }
+
+  .u-section-5 .u-shape-1 {
+    margin-left: 273px;
   }
 }
 
@@ -695,6 +705,11 @@
 
   .u-section-5 .u-image-1 {
     min-height: 578px;
+  }
+
+  .u-section-5 .u-shape-1 {
+    margin-top: -479px;
+    margin-left: 191px;
   }
 }
 
@@ -721,6 +736,12 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+
+  .u-section-5 .u-shape-1 {
+    margin-top: -612px;
+    margin-right: 73px;
+    margin-left: auto;
+  }
 }
 
 @media (max-width: 575px) {
@@ -738,6 +759,12 @@
 
   .u-section-5 .u-container-layout-2 {
     padding-bottom: 5px;
+  }
+
+  .u-section-5 .u-shape-1 {
+    margin-top: -502px;
+    margin-right: auto;
+    margin-left: 0;
   }
 }.u-section-6 .u-sheet-1 {
   min-height: 1140px;

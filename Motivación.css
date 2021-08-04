@@ -25,6 +25,7 @@
 
 .u-section-1 .u-text-2 {
   font-size: 1.5rem;
+  font-weight: normal;
   margin: 9px 133px 60px 13px;
 }
 
@@ -34,7 +35,6 @@
   }
 
   .u-section-1 .u-text-2 {
-    font-weight: normal;
     margin-right: 0;
     margin-left: 0;
   }
